@@ -6,11 +6,18 @@
   <title>نموذج بيانات العميل</title>
   <!-- تعديل مسار ملف CSS -->
   <link rel="stylesheet" href="assets/styles.css">
+  <meta name="google-adsense-account" content="ca-pub-3325257723758374">
   <!-- مكتبة XLSX -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.2/xlsx.full.min.js"></script>
 </head>
 <body>
   <div class="container">
+    <div class="intro">
+      <h2>عن موقع ExcelEasily 📋</h2>
+      <p>موقع ExcelEasily يساعدك على تنظيم بيانات عملائك بسهولة وسرعة. قم بإدخال بيانات كل عميل مثل الاسم، العمر، البريد الإلكتروني والعنوان، ثم احصل على ملف Excel مرتب بضغطة زر واحدة!</p>
+      <p>هدفنا هو توفير الوقت والجهد عليك باستخدام أدوات بسيطة وعملية لإدارة بيانات عملائك بكفاءة تامة.</p>
+    </div>
+
     <h1>نموذج بيانات العميل</h1>
     <form id="studentForm">
       <label for="name">الاسم:</label>
@@ -29,11 +36,18 @@
     </form>
 
     <div class="status" id="status"></div>
+
     <div class="download">
       <button id="downloadExcel" style="display:none;">تحميل البيانات بصيغة Excel</button>
     </div>
+
+    <footer class="footer">
+      <a href="privacy.html">سياسة الخصوصية</a> | 
+      <a href="contact.html">اتصل بنا</a>
+    </footer>
   </div>
-  <!-- تعديل مسار ملف JavaScript -->
+
   <script src="assets/script.js"></script>
 </body>
+
 </html>

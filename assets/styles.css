@@ -7,6 +7,47 @@ body {
     color: #333;
   }
   
+  /* مقدمة الموقع */
+.intro {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.intro h2 {
+  color: #2575fc;
+  margin-bottom: 10px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.intro p {
+  color: #666;
+  line-height: 1.6;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* الفوتر */
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+
+.footer a {
+  color: #2575fc;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
   /* Centered container with shadow */
   .container {
     max-width: 500px;
